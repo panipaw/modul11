@@ -1,0 +1,35 @@
+// Fonts
+//@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+//tambahan
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+body {
+    background-color: #0c3f69;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-color: #2f7aa5;
+
+}
+.footer {
+    background-color: #2f7aa5;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.content {
+    padding: 20px;
+    background-color:white;
+    border-radius: 5px;
+}
+.band-logo {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
